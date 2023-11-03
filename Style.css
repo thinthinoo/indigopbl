@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	background:url('Image/inle(2).jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.header{
+	display: flex;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 20px 100px;
+	background: transparent;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.logo{
+	font-size: 33px;
+	color: white;
+	text-decoration: none;
+	font-weight: 750;
+}
+
+.navbar a{
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
+	margin-left: 40px;
+}
+
+.navbar a::before{
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0px;
+	width: 0%;
+	height: 2px;
+	background: white;
+	transition: .3s;
+}
+
+.navbar a:hover::before{
+	width: 80px;
+}
+
+.text1{
+	margin-top: 200px;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	font-family: "Tilt Neon", sans-serif;
+}
+
+button{
+	font-family: "Tilt Neon", sans-serif;
+	width: 150px;
+	font-size: 15px;
+	height: 5vh;
+	color: white;
+	background: none;
+	padding: 5px 0px;
+	border: 2px solid #062840;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 600px;
+	cursor: pointer;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+}
+
